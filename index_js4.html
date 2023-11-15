@@ -7,6 +7,11 @@
 <body>
     
     <script>
+
+        first_name = 'itay'
+        age = 18
+        age = 19       
+
         // 1. present message: 'Enter first number:'
         // 2. the user will input a number using the keyboard
         // 3. variable x <== input number
@@ -19,9 +24,9 @@
         // display 'Enter second number:'
         // input number into variable called y
 
-        console.log(x);
-        console.log(y);
-        console.log(x * y);
+        console.log(x)
+        console.log(y)
+        console.log(x * y)
 
         // display 'Enter your first name'
         // input first name into variable called fname
@@ -29,6 +34,18 @@
         // input last name into variable called lname
         // print 'your name is'
         // print fname + lname
+        fname = prompt('Enter your first name: ')
+        lname = prompt('Enter your last name: ')
+
+        // 1.
+        document.write(fname)
+        document.write('&nbsp;')
+        document.write(lname)
+        document.write('<br/>')
+        document.write(fname + ' ' + lname)
+
+        console.log(fname + ' ' + lname)
+
 
     </script>
 
